@@ -1,0 +1,200 @@
+/* HTML5 test style sheet. May not be compatable  with production work. */
+
+/* Tell the browser to render HTML 5 elements as block */
+header, footer, aside, nav, article {
+	display: block;
+	}
+
+body {
+	margin: 0 auto;
+	padding-left: 80px;
+	width: 90%;
+	font: 13px Helvetica, Arial, sans-serif;
+	background: #111 url(../images/blackstripe-invert-right.png) repeat-y right top;
+	color: #dadada;
+}
+
+
+h1 {
+	font-size: 3em;
+	font-family: 'Josefin Sans Std Light', tahoma, arial, sans-serif;
+	color: #ff9a00;
+	margin-top: 20px;
+	margin-bottom: 4px;
+	font-weight: normal;
+	font-style: normal;
+}
+
+h2 {
+	font-size: 28px;
+	line-height: 20px;
+	padding: 0px;
+			}
+
+h3 {
+	font-size: 18px;
+	line-height: 22px;
+	padding: 11px 0;
+			}
+
+p {
+	padding-bottom: 22px;
+	}
+
+nav {
+	position: absolute;
+	left: 0;
+	background: #323232 url('../images/blackstripe-small.png') no-repeat;
+	width: 100%;
+}
+
+nav ul {
+	margin: 0 auto;
+	width: 940px;
+	list-style: none;
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a {
+	display: block;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 14px;
+	line-height: 44px;
+	text-align: center;
+	text-decoration: none;
+	color: #777;
+}
+
+nav ul li a:hover {
+	color: #fff;
+}
+
+nav ul li.selected a {
+	color: #fff;
+}
+
+
+
+
+#intro {
+	margin: 19px;
+	padding:20px;
+	margin-top: 60px;
+    background: #323232 /*url("../images/blackstripe-small.png") */no-repeat left top; 
+
+
+/* Rounded borders are cool, but never include something just cause it's cool */
+ /*	-moz-border-radius: 0px 0px 10px 22px; */
+/*	-webkit-border-radius:5px 30px 40px 50px; */
+	opacity: 0.9;
+}
+
+
+
+
+#intro p {
+	color: #d9f499;
+}
+
+#logo 
+{
+
+height: 100px;
+position:absolute;
+right: 20px;
+	top: 5px;
+}
+
+#content {
+	display: table;
+	background-color: #323232;
+	opacity: 1;
+	margin: 19px;
+}
+
+#find  {
+	display: none;
+	background-color: #323232;
+	opacity: 1;
+	margin: 19px;
+	padding: 20px;
+}
+
+
+#maincontent {
+	display: table-cell;
+	width: 620px;
+	padding-right: 20px;
+	padding-left: 10px;
+}
+
+#secondcontent {
+	background-color: #323232;
+	display: table-cell;
+	width: 300;
+}
+
+.panel a {
+ color: #FF3200;
+ text-decoration: none;
+}
+
+.panel img {
+	height: 50px;
+	border: none;
+}
+.panel p {
+	text-align: center;
+}
+#find ul {
+	margin: 0 auto;
+	list-style: none;
+}
+
+#find ul li {
+	float: left;
+}
+
+#find ul li a {
+	display: block;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+	color: #777;
+}
+
+find ul li a:hover {
+	color: #fff;
+}
+
+find ul li.selected a {
+	color: #fff;
+}
+/* items */
+#mainstage {
+	display: block;
+	width: 80%;
+	padding-right: 20px;
+	padding-left: 20px;
+	background-color: #323232;
+}
+
+#singleitem {
+	display: table-cell;
+	width: 80%;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.item{
+}
+.itemdesc {
+	display: block;
+	float: right;
+}

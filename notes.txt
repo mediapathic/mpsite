@@ -1,0 +1,26 @@
+need to make individual pages
+	need swf baggage for swfs, not for others
+	can use jquery to if/then presence of swf?
+		does it make more sense to detect that on index?
+or lightbox?
+	lightbox looks better for swf but 
+
+text links on slider should be thumbs instead, then popup to real + desc
+
+***
+New list:
+Fla:
+	curious bugs
+	shipshim
+	bartsim 
+	fountain
+	spiral
+	multispring
+	bluespring
+Img: 
+	textglitch
+	weedbg
+
+$("#events").unwrap is not a function
+http://sohodigart.com/js/jquery.slideshow.lite-0.5.3.js
+Line 161

@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<items>
+ <item id="1">
+  	<title>Weed Background</title>
+  	<src>/Users/pvck/Desktop/media/img/made/weedbg.png</src>
+  	<tags>img</tags>
+	<desc>A desktop background done as an experiment in noise effects within Illustrator.
+		The noisy stuff is actually just the text "mediapathic" again, severely modified.</desc>
+  	<link>http://mediapathic.net</link>
+ </item>
+ <item id="2" >
+  	<title>TextGlich x2</title>
+    <src>thumbs/textglitchX2_thumb.jpg</src>
+  	<tags>img</tags>
+	<desc>More noise experiments in Illustrator.</desc>
+  	<link>http://mediapathic.net</link>
+ </item> 
+ <item id="3" >
+  	<title>Curious Bugs</title>
+    <src>thumbs/CuriousBugs_thumb.jpg</src>
+	<tags>flash,code</tags>
+	<desc>Curious little bugs follow your mouse cursor around. An exercise in simple physics
+		simulation.</desc>
+	<content>
+	&lt;object type="application/x-shockwave-flash"
+	data="media/CuriousBugs.swf"
+width="640" height="480"&gt;
+&lt;param name="movie" value="media/CuriousBugs2.swf" /&gt;
+&lt;param name="allowScriptAccess" value="always"/&gt;
+&lt;param name="allowFullScreen" value="true"/&gt;
+&lt;/object&gt;
+	</content>
+  	<link>http://mediapathic.net</link>
+ </item> 
+ <item id="4" >
+  	<title>Blue Spring</title>
+    <src>thumbs/Spring2_thumb.jpg</src>
+  	<tags>flash,code</tags>
+	<desc></desc>
+  	<link>http://mediapathic.net</link>
+ </item> 
+  <item id="5" >
+  	<title>ShipSim</title>
+    <src>thumbs/ShipSim_thumb.jpg</src>
+  	<tags>flash,code</tags>
+	<desc></desc>
+  	<link>http://mediapathic.net</link>
+ </item> 
+ <item id="6" >
+  	<title>Chain</title>
+    <src>thumbs/Chain4_thumb.jpg</src>
+  	<tags>flash,code</tags>
+	<desc></desc>
+  	<link>http://mediapathic.net</link>
+ </item> 
+  <item id="7" >
+  	<title>MultiSpring</title>
+    <src>thumbs/MultiSpring_thumb.jpg</src>
+  	<tags>flash,code</tags>
+	<desc></desc>
+  	<link>http://mediapathic.net</link>
+ </item>
+ <item id="8">
+	 <title>Fountain</title>
+	 <src>thumbs/Fountain.jpg</src>
+	 <tags>flash,code</tags>
+	<desc></desc>
+ </item>
+ <item id="9">
+	 <title>BartSim</title>
+	 <src>thumbs/BartSim.jpg</src>
+	 <tags>flash,code</tags>
+	<desc></desc>
+ </item>
+ <item id="10">
+	 <title>AirBart</title>
+	 <src>thumbs/AirBart.jpg</src>
+	 <tags>flash,code</tags>
+	<desc></desc>
+ </item>
+ <item id="11">
+	 <title>Spiral</title>
+	 <src>thumbs/Spiral.jpg</src>
+	 <tags>flash,code</tags>
+	<desc></desc>
+ </item>
+ <!-- processing -->
+ <item id="12">
+	 <title>RadialRandom</title>
+	 <src>thumbs/RadialRand.jpg</src>
+	 <tags>code,processing</tags>
+	<desc></desc>
+ </item>
+ <!-- vid -->
+ <item id="13">
+	<title>DemoReel</title>
+	<src>thumbs/DemoReel.jpg</src>
+	<tags>vid,vj</tags>
+	<desc></desc>
+ </item>
+ <item id="14">
+	 <title>OutsideOfTime</title>
+	 <src>thumbs/OutsideOfTime.jpg</src>
+	 <tags>vid,sound</tags>
+	<desc></desc>
+ </item>
+ <!-- img -->
+ <item id="15">
+	<title>TextGlitch</title>
+	<src>thumbs/TextGlitch</src>
+	<tags>img</tags>
+	<desc></desc>
+ </item>
+</items>

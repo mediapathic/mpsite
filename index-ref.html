@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+<head>
+	<title>me di a pa th ic</title>
+	<link rel="stylesheet" href="../reset.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+	<script src="jquery.js" type="text/javascript"></script>
+
+	<script>
+		$(document).ready(function(){
+		$.ajax({
+			type:"GET",
+			url:"portfolio.xml",
+			dataType:"xml",
+			success: function(xml) {
+				$(xml).find('image').each(function(){
+					var id = $(this).attr('id');
+					var title = $(this).find('title').text();
+					$("#xmlresults").append('<p> ' + title + '</p>');	
+				})
+			}
+		});
+$("<div><p>Hello</p></div>").appendTo("#intro")
+		});
+
+	</script>
+</head>
+<body>
+	<header>
+	<h1>
+		mediapathic
+	</h1>
+	</header>
+
+	<nav>
+	<!-- navigation -->
+	<ul>
+		<li><a href="#">News</a></li>
+		<li><a href="#">Portfolio</a></li>
+		<li><a href="#">Find Me</a></li>
+		<li class="subscribe"><a href="#">Subscribe via RSS</a></li>
+	</ul>
+	</nav>
+	<section>
+	<div id="intro">
+	<!-- introduction -->
+		<header>
+			<h2>Welcome to Mediapathic</h2>
+		</header>
+		<p>Lorem ipsum etc etc</p>
+		
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce accumsan nisi eget nisl lacinia convallis. Praesent vel magna nulla. Integer fringilla scelerisque est, ut viverra mauris mollis nec. Nullam lorem risus, bibendum vitae dapibus et, dignissim eu elit. Cras cursus felis a erat imperdiet semper. Maecenas feugiat fringilla dolor id gravida. Morbi quis augue quis justo pharetra accumsan. Vivamus gravida consequat blandit. Sed volutpat auctor scelerisque. Aenean dapibus turpis eu neque vehicula facilisis.
+</p>
+<img src="../images/pieces/gear/orangegear1.gif" alt="headimg">
+	</div>
+	</section>
+<div id="content">	
+	<section>
+	<!-- content -->
+		<article class="news">
+			<header>
+				<h3>I have some news, or does it have me?</h3>
+				<p>Posted on <time datetime="2010-01-30T23:31:45-08:00">30 Jan 10</time></p>
+			</header>
+				<div id="maincontent">
+				<p>
+</p>
+<div id="xmlresults"></div>
+
+<p>
+
+</div>
+<div id="secondcontent">
+Etiam eget nunc turpis, eget lobortis est. Donec ultricies faucibus dui eu placerat. Proin
+pharetra ultricies consectetur. Morbi sit amet dui ac erat sagittis porttitor. Quisque sit amet
+odio vitae nisl tincidunt volutpat. Nulla bibendum lectus ut nisl faucibus tristique. Nunc et
+mauris turpis. Suspendisse feugiat pretium dolor, sed interdum massa pharetra et. Duis vitae
+metus non arcu iaculis molestie quis at arcu. Phasellus vulputate nisi non risus dapibus non
+molestie nisl imperdiet. Suspendisse rhoncus sem dignissim mi interdum congue pulvinar tellus
+dignissim. Pellentesque eget massa a enim faucibus pulvinar ac vitae diam. Nullam tincidunt
+scelerisque neque a cursus. Cras pharetra velit urna. Lorem ipsum dolor sit amet, consectetur
+adipiscing elit. Mauris imperdiet faucibus rutrum. Mauris pretium dapibus nunc sit amet
+dapibus. Nulla auctor pharetra nunc eu aliquet. Etiam tempus lorem ut lacus lacinia vitae
+lobortis nisl posuere. Fusce lacinia nunc in diam malesuada accumsan.</p> 
+</div>
+	
+			<p>I'll lorem your ipsum!</p>
+		</article>
+	</section>
+</div>
+
+	<div id="aside">
+	<!--sidebar -->
+	<p>
+Etiam eget nunc turpis, eget lobortis est. Donec ultricies faucibus dui eu placerat. Proin
+pharetra ultricies consectetur. Morbi sit amet dui ac erat sagittis porttitor. Quisque sit amet
+odio vitae nisl tincidunt volutpat. Nulla bibendum lectus ut nisl faucibus tristique. Nunc et
+mauris turpis. Suspendisse feugiat pretium dolor, sed interdum massa pharetra et. Duis vitae
+metus non arcu iaculis molestie quis at arcu. Phasellus vulputate nisi non risus dapibus non
+molestie nisl imperdiet. Suspendisse rhoncus sem dignissim mi interdum congue pulvinar tellus
+dignissim. Pellentesque eget massa a enim faucibus pulvinar ac vitae diam. Nullam tincidunt
+scelerisque neque a cursus. Cras pharetra velit urna. Lorem ipsum dolor sit amet, consectetur
+adipiscing elit. Mauris imperdiet faucibus rutrum. Mauris pretium dapibus nunc sit amet
+dapibus. Nulla auctor pharetra nunc eu aliquet. Etiam tempus lorem ut lacus lacinia vitae
+lobortis nisl posuere. Fusce lacinia nunc in diam malesuada accumsan.</p> 
+	</div>
+
+	<footer>
+	<!-- well, yes, the footer -->
+	</footer>
+
+</body>
+</html>
