@@ -12,6 +12,7 @@ rel='stylesheet' type='text/css'> -->
 		<script src="jquery.js" type="text/javascript"></script>
 		<script type="text/javascript" src="jquery.easing.1.3.js"></script>
 		<script type="text/javascript" src="jquery.coda-slider-2.0.js"></script>
+		<script type="text/javascript" src="jquery.tools.min.js"></script>
 
 		<script>
 			/* TODO:
@@ -23,7 +24,7 @@ rel='stylesheet' type='text/css'> -->
 					  e.preventDefault();  
 				 }); 
 				
-
+				$("intro").flashembed("~/media/CuriousBugs2.swf");
 				$.get('portfolio.xml', function(xml) {
 					// get global tag list
 					var contentArray = new Array();
@@ -56,6 +57,7 @@ rel='stylesheet' type='text/css'> -->
 							var title = $(this).find('title').text();
 							var src = $(this).find('src').text();
 							var desc = $(this).find('desc').text();
+							var content = $(this).find('content').text();
 							var onetaglist = $(this).find('tags').text();
 							var onetagarray = onetaglist.split(",");
 							$(onetaglist).find('flash').each(function(){
@@ -131,6 +133,7 @@ rel='stylesheet' type='text/css'> -->
 								$("#singleitem").remove();
 
 								// make new item
+								console.log("item is " + contentArray[currentitem][4] );
 								$('#mainstage').append(
 								'<div id="singleitem" visibility="none">'+
 									// content of the item
@@ -160,8 +163,8 @@ $('#mainstage').append(
 										//'>
 
 										/* experimental dynamic version*/
-										contentArray[currentitem][4]+	
-										'<div class="itemdesc">'+ 
+										contentArray[currentitem][4].toString() +	
+										'</div><div class="itemdesc">'+ 
 										contentArray[currentitem][3].toString() +
 										'</div>'+
 									// /item
@@ -218,6 +221,12 @@ $('#mainstage').append(
 				things happen. This site serves mostly as a portfolio, as well as a gateway to
 				find other data relevant to me elsewhere.
 				</p>
+		<object type="application/x-shockwave-flash" data="media/CuriousBugs.swf" width="640" height="480">
+		<param name="movie" value="media/CuriousBugs2.swf" />
+		<param name="allowScriptAccess" value="always"/>
+		<param name="allowFullScreen" value="true"/>
+	</object>
+
 			</section>
 		</div>
 

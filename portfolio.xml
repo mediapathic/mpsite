@@ -22,13 +22,13 @@
 	<desc>Curious little bugs follow your mouse cursor around. An exercise in simple physics
 		simulation.</desc>
 	<content>
-	&lt;object type="application/x-shockwave-flash"
-	data="media/CuriousBugs.swf"
-width="640" height="480"&gt;
-&lt;param name="movie" value="media/CuriousBugs2.swf" /&gt;
-&lt;param name="allowScriptAccess" value="always"/&gt;
-&lt;param name="allowFullScreen" value="true"/&gt;
-&lt;/object&gt;
+		<![CDATA[
+		<object type="application/x-shockwave-flash" data="media/CuriousBugs.swf" width="640" height="480">
+		<param name="movie" value="media/CuriousBugs2.swf" />
+		<param name="allowScriptAccess" value="always"/>
+		<param name="allowFullScreen" value="true"/>
+	</object>
+	]]>
 	</content>
   	<link>http://mediapathic.net</link>
  </item> 
@@ -36,7 +36,8 @@ width="640" height="480"&gt;
   	<title>Blue Spring</title>
     <src>thumbs/Spring2_thumb.jpg</src>
   	<tags>flash,code</tags>
-	<desc></desc>
+	<desc><p>Blue Springs</p></desc>
+	<content><![CDATA[  <img src="thumbs/Spring2_thumb.jpg"> ]]></content>
   	<link>http://mediapathic.net</link>
  </item> 
   <item id="5" >
